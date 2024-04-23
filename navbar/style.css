@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+ul {
+    max-width: 80%;
+    margin: 0 auto;
+    /* height: 60px; */
+    background-color: black;
+    color: white;
+    text-align: start;
+   
+}
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+}
+li:hover {
+    text-decoration: underline;
+}
+.first {
+    background-color: blue;
+}
+.first:hover{
+    background-color: rgb(69, 69, 192);
+}
+@media  (max-width :440px) {
+    li {
+        display : block;
+        font-size: 15px;
+    }
+}

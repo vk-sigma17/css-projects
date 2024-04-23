@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    width: 100%;
+    
+}
+.parallex1 {
+    background-image: url(https://images.unsplash.com/photo-1707343844152-6d33a0bb32c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8fA%3D%3D); 
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 40%;
+    left: 45%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+}
+.para1 p{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.parallex2 {
+    background-image: url(https://images.unsplash.com/photo-1682687220923-c58b9a4592ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D); 
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 40%;
+    left: 45%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+}
+.para2 p{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+}
